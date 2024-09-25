@@ -43,6 +43,29 @@ class TurtleThing:
             forward_distance += step_increment
             direction += 45
             self.x, self.y = turtle.pos()
+  
+    def draw_with_lengths(self, lengths):
+        for i, turtle in enumerate(self.turtles):
+            turtle.penup()
+            turtle.goto(self.x, self.y)
+            turtle.pendown()
+            turtle.forward(lengths[i % len(lengths)])
+
+    def draw_with_headings(self, headings):
+        for i, turtle in enumerate(self.turtles):
+            turtle.penup()
+            turtle.goto(self.x, self.y)
+            turtle.pendown()
+            turtle.setheading(headings[i % len(headings)])
+            turtle.forward(100)
+
+    def draw_with_pen_sizes(self, pen_sizes):
+        for i, turtle in enumerate(self.turtles):
+            turtle.penup()
+            turtle.goto(self.x, self.y)
+            turtle.pendown()
+            turtle.pensize(pen_sizes[i % len(pen_sizes)])
+            turtle.forward(100)
 
 
 
