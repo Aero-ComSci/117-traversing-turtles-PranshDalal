@@ -2,7 +2,7 @@
 
 ## Overview
 
-The 1.1.7 project is a revolutionary python application built using the turtle module. The goal of the project is to create multiple turtles with different shapes and colors and make them draw various patterns. This project was also a great way to practie using Object-Oritented Programming which makes the code more scalable.
+The 1.1.7 project is a revolutionary python application built using the turtle module. The goal of the project is to create multiple turtles with different shapes and colors and make them draw various patterns. This project was also a great way to practie using Object-Oritented Programming which makes the code more scalable.  The final program is meant for people who are bored and want to watch satisfying animations.
 
 ## Features
 
